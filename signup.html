@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> sign up page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="task that write signup  ">
+    <meta name="keywords" content="signup , tasks ,constrains picture, public info , experince, hoppies ">
+    <meta name="author" content="hassan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images\HTML Logo .png">
+</head>
+
+<body background="Images\back ground.jpg">
+    
+    <h2>Email Signup Form </h2>
+    <h6>We would love to be in touch with you! Please sign up to receive emails from us! </h6>
+    <hr>
+    <h3>Please complete all information below:</h3>
+    <!--   action="wwww.google.com" method=" post"> -->
+    <form action="login.html" target="_blank" autocomplete="on">
+        <label for="Name">Enter Your Full Name: </label>
+        <pre><label for="Name">Mrs./MS:   </label>              <label for="Name">FristName:   </label>             <label for="Name">LastName:   </label>  </pre>
+        <input type="Name " id="name" name="name" maxlength="30"  required/>
+        <input type="Name " id="name" name="fristName" maxlength="30" required />
+        <input type="Name " id="name" name="LastName" maxlength="30"  required/><br></br>
+        <fieldset>
+            <legend>Gender</legend>
+            <!-- <input type="checkbox " id="MAle" name="Male" value="Male" /> -->
+            <input id="gender" name="gender" type="radio" value="male" required>
+            <label for="radio-6" class="radio-label">Male</label>
+            <input id="gender" name="gender" type="radio" value="female"  required>
+            <label for="radio-6" class="radio-label">Female</label>
+        </fieldset>
+        <pre><label for="Name">ُEmail:   </label>                     <label for="Name">Phone :  </label>         </pre>
+        <pre><input type="email"  id="email" name="email" placeholder="Enter your E-Mail" maxlength="30"  required/>     <input type="Phone"  id="Phone" name="Phone" placeholder="+20 000 000 " maxlength="12" required /><br><br></pre>
+        <label for="text">Current address: </label><br></br>
+        <input type="text " id="address" name="address" maxlength="10000"  required />
+        <pre><label for="Government ">Government  </label>              <label for="City">City:   </label>   </pre>
+        <input type="text " id="Government" name="Government" maxlength="30"  required/>
+        <input type="text " id="City" name="City" maxlength="30"  required/><br></br>
+        <pre><label for="password ">password  </label>              <label for="password">Confirm Password  </label>   </pre>
+        <pre><input type="password" id="password" name="password" placeholder="Enter your password" maxlength="30"  required/> <input type="password" id="password" name="password" placeholder="Confirm password" maxlength="30"  required/></pre>
+
+        <p><label for="Bio">Talk about your self :</label></p>
+        <textarea id="Bio" name="Bio" rows="4"cols="50"> required </textarea>
+
+        <input type="submit" value="Submit" > 
+        <u><a href="login.html" target="_blank">
+        <button type="reset" value="Reset">Reset</button>
+    </form>
+</body>
+
+</html>
